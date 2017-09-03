@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="ColorPickStyle.css" rel="stylesheet" />
+</head>
+<body>
+<div id="main">
+    <h2 id="heading">CSS Color Displayer</h2>
+    <p>Select a number from 0 to 255 for each color value: </p>
+    <!--box for red color-->
+    <div id="floats">
+        <div class="box">
+            Red
+            <input type="text" class="inp" id="red" />
+        </div>
 
+        <!--box for green color-->
+        <div class="box">
+            Green:
+            <input type="text" class="inp" id="green" />
+        </div>
+
+        <!--box for green color-->
+        <div class="box">
+            Blue:
+            <input type="text" class="inp" id="blue" />
+        </div>
+        <!--box for buttons-->
+        <div id="btn">
+            <button id="btn1" class="button">Show me the Color! </button><br />
+            <button id="btn2" class="button">Clear all</button>
+        </div>
+
+    </div>
+    <!--box for color display-->
+    <input type="text" id="color"/>
+
+    <div id="output"></div>
+
+</div>
+    <script src="colorpick.js"></script>
+
+</body>
+</html>
